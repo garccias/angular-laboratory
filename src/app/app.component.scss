@@ -1,0 +1,39 @@
+.container {
+
+    height: 100vh;
+    display: flex;
+  
+}
+
+
+.left {
+
+    height: 100%;
+    width: 70%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.left-header {
+
+    flex-grow: 1; // poderia usar o height 20% tbm
+    background-color: yellow;
+}  
+
+
+.left-body {
+
+    height: 80%;
+    background-color: blue;
+}
+
+.right {
+
+    max-height: 100vh;
+    width: 30%;
+    background-color: red;
+    
+}
